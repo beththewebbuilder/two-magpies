@@ -1,0 +1,7 @@
+# don't require to comit any node modules, these should be local
+node_modules*
+
+# external plugins such as woocommerce can be directly uploaded to the side and don't need to be committed
+plugins/woocommerce/
+languages/plugins
+*.zip
