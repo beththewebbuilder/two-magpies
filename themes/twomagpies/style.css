@@ -1,8 +1,29 @@
+@font-face {
+  font-family: "BrittanySignature";
+  src: url("./fonts/BrittanySignature.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar {
+  background-color: #E1A3C0;
+}
+.navbar .logo-top {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .logo-bottom {
+  font-family: BrittanySignature, cursive;
+}
+.navbar .contact-button {
+  color: #C05F8A;
+  font-size: 1.5rem;
+}
+
 .background-ring-container-right {
   position: fixed;
   top: 14%;
   left: 52%;
   width: 69vw;
+  z-index: -1;
 }
 .background-ring-container-right img {
   width: 100%;
@@ -10,12 +31,34 @@
 
 .background-ring-container-left {
   position: fixed;
-  top: 14%;
-  left: 52%;
-  width: 69vw;
+  top: 59%;
+  left: -27%;
+  width: 64vw;
+  z-index: -1;
 }
 .background-ring-container-left img {
   width: 100%;
+}
+
+.header-image {
+  height: 30vh;
+}
+.header-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.content-break-icon {
+  color: #E1A3C0;
+  font-size: 2rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
