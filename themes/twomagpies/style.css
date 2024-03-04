@@ -1,7 +1,21 @@
-/*
-Theme Name: Two Magpies Village Cafe WP Theme
-Author: BuildnBloom
-Description: Initially created in 2024
-Version: 1.0.0
-Tags: bootstrap, buildnbloom
-*/
+.background-ring-container-right {
+  position: fixed;
+  top: 14%;
+  left: 52%;
+  width: 69vw;
+}
+.background-ring-container-right img {
+  width: 100%;
+}
+
+.background-ring-container-left {
+  position: fixed;
+  top: 14%;
+  left: 52%;
+  width: 69vw;
+}
+.background-ring-container-left img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
