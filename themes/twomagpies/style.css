@@ -1,3 +1,11 @@
+@charset "UTF-8";
+/*
+Theme Name: Two Magpies Village Café
+Author: Bethany Fowler
+Author URI: https://bethanyfowler.me/
+Description: Styled theme for Two Magpies Village Café
+Version: 1.0.0
+*/
 @font-face {
   font-family: "BrittanySignature";
   src: url("./fonts/BrittanySignature.ttf");
@@ -28,6 +36,18 @@
 .background-ring-container-right img {
   width: 100%;
 }
+@media only screen and (min-width: 700px) {
+  .background-ring-container-right {
+    width: 35vw;
+    left: 81%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .background-ring-container-right {
+    width: 22vw;
+    left: 83%;
+  }
+}
 
 .background-ring-container-left {
   position: fixed;
@@ -38,6 +58,18 @@
 }
 .background-ring-container-left img {
   width: 100%;
+}
+@media only screen and (min-width: 700px) {
+  .background-ring-container-left {
+    width: 39vw;
+    left: -18%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .background-ring-container-left {
+    width: 27vw;
+    left: -11%;
+  }
 }
 
 .header-image {
@@ -76,7 +108,7 @@
 }
 
 footer {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #C05F8A;
 }
 footer .footer-logo {
@@ -85,6 +117,11 @@ footer .footer-logo {
 footer .footer-logo img {
   width: 100%;
   object-fit: cover;
+}
+@media only screen and (min-width: 1200px) {
+  footer .footer-logo {
+    display: none;
+  }
 }
 
 .btn-pink {
