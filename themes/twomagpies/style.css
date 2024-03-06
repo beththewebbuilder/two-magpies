@@ -53,12 +53,42 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   text-align: center;
+  margin-top: 1rem;
+}
+.content .content-title {
+  font-weight: bold;
+}
+.content a {
+  text-decoration: none;
+  color: black;
 }
 
 .content-break-icon {
   color: #E1A3C0;
   font-size: 2rem;
   text-align: center;
+  margin-top: 1rem;
+}
+
+.menu-list img {
+  width: 100%;
+  object-fit: cover;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #C05F8A;
+}
+footer .footer-logo {
+  width: 100%;
+}
+footer .footer-logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-pink {
+  background-color: #E1A3C0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

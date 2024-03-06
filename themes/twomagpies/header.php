@@ -36,7 +36,7 @@
 
     <nav class="navbar navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
                 <div class="logo-top">TWO MAGPIES</div>
                 <div class="logo-bottom">Village Café</div>
             </a>

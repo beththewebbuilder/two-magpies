@@ -69,9 +69,41 @@ $dark-pink: #C05F8A;
     font-family: $main-font;
     font-size: 1.2rem;
     text-align: center;
+    margin-top: 1rem;
+    .content-title {
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
 .content-break-icon {
     color: $primary-colour;
     font-size: 2rem;
     text-align: center;
+    margin-top: 1rem;
+}
+
+.menu-list {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+footer {
+    font-size: .8rem;
+    color: $dark-pink;
+    .footer-logo {
+        width: 100%;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.btn-pink {
+    background-color: $primary-colour !important;
 }

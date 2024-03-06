@@ -9,40 +9,39 @@ get_header();
     <img src="<?php echo get_bloginfo('template_directory'); ?>/images/coffee-ring.png" />
 </div>
 <div class="header-image">
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/header.jpeg"/>
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/breakfast.jpg"/>
 </div>
 
 <div class="container pt-4">
     <div class="content">
-        Friendly little café in the heart of the beautiful village of South Petherton, serving coffee, breakfast, lunch and more!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-burger"></i></div>
+        <div class="content-title">Occasion Cake Price List</div>
+        <ul>
+            <li>Decorative cupcakes £15 per 6</li>
+            <li>Mini cake & 2 cupcakes £25</li>
+            <li>Mini cake & 8 cupcakes £40</li>
+            <li>Brownie stacks £35</li>
+            <li>6 inch cakes start from £55</li>
+            <li>7 inch cakes start from £65</li>
+            <li>8 inch cakes start from £85</li>
+        </ul>
+        <small class="text-center">All prices are starting prices, additional costs for toppers and additional decorations</small>
+    </div>    
     <div class="content">
-        Are you looking for a coffee on the go, or delicious home made lunch before heading back to work? We’ve got you covered with our take away options!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-gift"></i></div>
-    <div class="content">
-        Hosting a birthday party or baby shower? Get in touch to find out about booking out our cafe for afternoon tea and cake!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-cookie-bite"></i></div>
-    <div class="content">
-        Want some of our delicious baked goods delivered directly to your door? Get in touch to hear more about our order postal cookie and brownies!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-coffee"></i></div>
-    <div class="content">
-        HOMEMADE CAKES
-        <br/>
-        WEEKLY SPECIALS
-        <br/>
-        TAKE AWAY
-        <br/>
-        EVENING EVENTS
-        <br/>
-        EVENTS CATERING
+        <div class="content-title">Traybake and Cookie Price List</div>
+        <ul>
+            <li>Rocky Road start from £15</li>
+            <li>Brownie start from £20</li>
+            <li>Blondie start from £20</li>
+            <li>Millionaires start from £15</li>
+        </ul>
+        Multiple toppings/flavours available </br>
+        <small>All traybakes are decorated to a minimal design unless otherwise specified</small>
     </div>
 
-    <div class="button-container text-center mt-4 mb-4">
-        <a class="btn btn-pink" href="<?php echo get_site_url(); ?>/menu">View our menu</a>
+    <div class="menu-list">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/menus/menu_1.jpeg"/>
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/menus/menu_2.jpeg"/>
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/menus/menu_3.jpeg"/>
     </div>
 
     <div class="content">
@@ -79,6 +78,7 @@ get_header();
     <div class="content">
         <div class="content-title">Find us on Instagram</div>
     </div>
+
 </div>
 
 <!-- Place <div> tag where you want the feed to appear -->
