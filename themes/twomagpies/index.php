@@ -13,33 +13,51 @@ get_header();
 </div>
 
 <div class="container pt-4">
-    <div class="content">
-        Friendly little café in the heart of the beautiful village of South Petherton, serving coffee, breakfast, lunch and more!
+    <div class="row">
+        <div class="col-12">
+            <div class="content">
+                Friendly little café in the heart of the beautiful village of South Petherton, serving coffee, breakfast, lunch and more!
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <div class="content-break-icon"><i class="fa-solid fa-burger"></i></div>
+            <div class="content">
+                Are you looking for a coffee on the go, or delicious home made lunch before heading back to work? We’ve got you covered with our take away options!
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="content-break-icon"><i class="fa-solid fa-gift"></i></div>
+            <div class="content">
+                Hosting a birthday party or baby shower? Get in touch to find out about booking out our cafe for afternoon tea and cake!
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="content-break-icon"><i class="fa-solid fa-cookie-bite"></i></div>
+            <div class="content">
+                Want some of our delicious baked goods delivered directly to your door? Get in touch to hear more about our order postal cookie and brownies!
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="content-break-icon"><i class="fa-solid fa-coffee"></i></div>
+            <div class="content">
+                HOMEMADE CAKES
+                <br/>
+                WEEKLY SPECIALS
+                <br/>
+                TAKE AWAY
+                <br/>
+                EVENING EVENTS
+                <br/>
+                EVENTS CATERING
+            </div>
+        </div>
     </div>
-    <div class="content-break-icon"><i class="fa-solid fa-burger"></i></div>
-    <div class="content">
-        Are you looking for a coffee on the go, or delicious home made lunch before heading back to work? We’ve got you covered with our take away options!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-gift"></i></div>
-    <div class="content">
-        Hosting a birthday party or baby shower? Get in touch to find out about booking out our cafe for afternoon tea and cake!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-cookie-bite"></i></div>
-    <div class="content">
-        Want some of our delicious baked goods delivered directly to your door? Get in touch to hear more about our order postal cookie and brownies!
-    </div>
-    <div class="content-break-icon"><i class="fa-solid fa-coffee"></i></div>
-    <div class="content">
-        HOMEMADE CAKES
-        <br/>
-        WEEKLY SPECIALS
-        <br/>
-        TAKE AWAY
-        <br/>
-        EVENING EVENTS
-        <br/>
-        EVENTS CATERING
-    </div>
+    
+    
+    
+    
+
 
     <div class="button-container text-center mt-4 mb-4">
         <a class="btn btn-pink" href="<?php echo get_site_url(); ?>/menu">View our menu</a>

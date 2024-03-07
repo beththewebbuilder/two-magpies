@@ -35,15 +35,19 @@
   <body>
 
     <nav class="navbar navbar-light">
-        <div class="container-fluid">
+      <div class="container">
+        <div class="row" style="width: 100%">
+          <div class="col-6">
             <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
                 <div class="logo-top">TWO MAGPIES</div>
                 <div class="logo-bottom">Village Café</div>
             </a>
-            <div class="d-flex">
-                <a class="contact-button" href="tel:07585 998667">
+          </div>
+          <div class="col-6 text-end">
+            <a class="contact-button" href="tel:07585 998667">
                     <i class="fa-solid fa-phone"></i>
-                </a>
-            </div>
+            </a>
+          </div>
         </div>
+      </div>
     </nav>
