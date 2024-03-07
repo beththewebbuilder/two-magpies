@@ -8,8 +8,29 @@ get_header();
 <div class="background-ring-container-left">
     <img src="<?php echo get_bloginfo('template_directory'); ?>/images/coffee-ring.png" />
 </div>
-<div class="header-image">
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/header.jpeg"/>
+
+<!--header images-->
+<div class="row g-0">
+    <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="header-image">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/header.jpeg"/>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 hide-xs-screen">
+        <div class="header-image">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/breakfast.jpg"/>
+        </div>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3 hide-small-screen">
+        <div class="header-image">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/cafe.jpg"/>
+        </div>
+    </div>
+    <div class="col-3 hide-mid-screen">
+        <div class="header-image">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/cakes.jpg"/>
+        </div>
+    </div>
 </div>
 
 <div class="container pt-4">
@@ -21,35 +42,41 @@ get_header();
         </div>
 
         <div class="col-sm-12 col-md-6">
-            <div class="content-break-icon"><i class="fa-solid fa-burger"></i></div>
-            <div class="content">
-                Are you looking for a coffee on the go, or delicious home made lunch before heading back to work? We’ve got you covered with our take away options!
+           <div class="content-container">
+               <div class="content-break-icon"><i class="fa-solid fa-burger"></i></div>
+                <div class="content">
+                    Are you looking for a coffee on the go, or delicious home made lunch before heading back to work? We’ve got you covered with our take away options!
+                </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6">
-            <div class="content-break-icon"><i class="fa-solid fa-gift"></i></div>
-            <div class="content">
-                Hosting a birthday party or baby shower? Get in touch to find out about booking out our cafe for afternoon tea and cake!
+            <div class="content-container">
+                <div class="content-break-icon"><i class="fa-solid fa-gift"></i></div>
+                <div class="content">
+                    Hosting a birthday party or baby shower? Get in touch to find out about booking out our cafe for afternoon tea and cake!
+                </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6">
-            <div class="content-break-icon"><i class="fa-solid fa-cookie-bite"></i></div>
-            <div class="content">
-                Want some of our delicious baked goods delivered directly to your door? Get in touch to hear more about our order postal cookie and brownies!
+            <div class="content-container">
+                <div class="content-break-icon"><i class="fa-solid fa-cookie-bite"></i></div>
+                <div class="content" style="padding-bottom: 1.8rem">
+                    Want some of our delicious baked goods delivered directly to your door? Get in touch to hear more about our order postal cookie and brownies!
+                </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6">
-            <div class="content-break-icon"><i class="fa-solid fa-coffee"></i></div>
-            <div class="content">
-                HOMEMADE CAKES
-                <br/>
-                WEEKLY SPECIALS
-                <br/>
-                TAKE AWAY
-                <br/>
-                EVENING EVENTS
-                <br/>
-                EVENTS CATERING
+            <div class="content-container">
+                <div class="content-break-icon"><i class="fa-solid fa-coffee"></i></div>
+                <div class="content">
+                    Homemade cakes
+                    <br/>
+                    Weekly specials
+                    <br/>
+                    Take away
+                    <br/>
+                    Evening events & catering
+                </div>
             </div>
         </div>
     </div>
@@ -60,7 +87,7 @@ get_header();
 
 
     <div class="button-container text-center mt-4 mb-4">
-        <a class="btn btn-pink" href="<?php echo get_site_url(); ?>/menu">View our menu</a>
+        <a class="btn btn-pink btn-lg" href="<?php echo get_site_url(); ?>/menu">View our menu</a>
     </div>
 
     <div class="content">

@@ -8,8 +8,29 @@ get_header();
 <div class="background-ring-container-left">
     <img src="<?php echo get_bloginfo('template_directory'); ?>/images/coffee-ring.png" />
 </div>
-<div class="header-image">
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/breakfast.jpg"/>
+
+<!--header images-->
+<div class="row g-0">
+    <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 hide-xs-screen">
+        <div class="header-image">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/breakfast.jpg"/>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="header-image">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/header.jpeg"/>
+        </div>
+    </div>
+    <div class="col-sm-12 col-lg-4 col-xl-3 hide-small-screen">
+        <div class="header-image">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/cafe.jpg"/>
+        </div>
+    </div>
+    <div class="col-3 hide-mid-screen">
+        <div class="header-image">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/cakes.jpg"/>
+        </div>
+    </div>
 </div>
 
 <div class="container pt-4">

@@ -23,15 +23,20 @@ Version: 1.0.0
 $secondary-font: BrittanySignature, cursive;
 $main-font: "Montserrat", sans-serif;
 
-$primary-colour: #E1A3C0;
+$primary-colour: #e1a3c0;
 $dark-pink: #C05F8A;
 
-$mid-screen-size: 700px;
-$large-screen-size: 1200px;
+$small-screen-size: 576px;
+$mid-screen-size: 992px;
+$large-screen-size: 1199px;
 
 // NAVIGATION
 .navbar {
     background-color: $primary-colour;
+
+    .navbar-brand {
+        color: black;
+    }
 
     .logo-top {
         font-family: $main-font;
@@ -91,6 +96,12 @@ $large-screen-size: 1200px;
         width: 100%;
     }
 }
+.content-container {
+    padding: 1rem;
+    background-color: rgba(225, 163, 192, 0.3);
+    margin: 1rem;
+    padding-bottom: 3rem;
+}
 
 .content {
     font-family: $main-font;
@@ -136,4 +147,22 @@ footer {
 
 .btn-pink {
     background-color: $primary-colour !important;
+}
+
+.hide-xs-screen {
+    @media only screen and (max-width: $small-screen-size) {
+        display: none;
+    }
+}
+
+.hide-small-screen {
+    @media only screen and (max-width: $mid-screen-size) {
+        display: none;
+    }
+}
+
+.hide-mid-screen {
+    @media only screen and (max-width: $large-screen-size) {
+        display: none;
+    }
 }
