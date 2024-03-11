@@ -3,7 +3,7 @@ Theme Name: Two Magpies Village Café
 Author: Bethany Fowler
 Author URI: https://bethanyfowler.me/
 Description: Styled theme for Two Magpies Village Café
-Version: 1.0.0
+Version: 1.0.1
 */
 
 @mixin font($font-family, $font-file) {
@@ -48,6 +48,10 @@ $large-screen-size: 1199px;
         color: $dark-pink;
         font-size: 1.5rem;
     }
+}
+
+.secondary-font {
+    font-family: $secondary-font;
 }
   
 .background-ring-container-right {
@@ -165,4 +169,8 @@ footer {
     @media only screen and (max-width: $large-screen-size) {
         display: none;
     }
+}
+
+figure.aligncenter {
+    width: 100%;
 }

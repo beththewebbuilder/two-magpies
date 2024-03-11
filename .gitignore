@@ -5,3 +5,4 @@ node_modules*
 plugins/woocommerce/
 languages/plugins
 *.zip
+wp-content/uploads

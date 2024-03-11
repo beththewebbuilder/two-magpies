@@ -34,37 +34,11 @@ get_header();
 </div>
 
 <div class="container pt-4">
-    <div class="content">
-        <div class="content-title">Occasion Cake Price List</div>
-        <ul>
-            <li>Decorative cupcakes £15 per 6</li>
-            <li>Mini cake & 2 cupcakes £25</li>
-            <li>Mini cake & 8 cupcakes £40</li>
-            <li>Brownie stacks £35</li>
-            <li>6 inch cakes start from £55</li>
-            <li>7 inch cakes start from £65</li>
-            <li>8 inch cakes start from £85</li>
-        </ul>
-        <small class="text-center">All prices are starting prices, additional costs for toppers and additional decorations</small>
-    </div>    
-    <div class="content">
-        <div class="content-title">Traybake and Cookie Price List</div>
-        <ul>
-            <li>Rocky Road start from £15</li>
-            <li>Brownie start from £20</li>
-            <li>Blondie start from £20</li>
-            <li>Millionaires start from £15</li>
-        </ul>
-        Multiple toppings/flavours available </br>
-        <small>All traybakes are decorated to a minimal design unless otherwise specified</small>
-    </div>
 
-    <div class="menu-list">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/menus/menu_1.jpeg"/>
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/menus/menu_2.jpeg"/>
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/menus/menu_3.jpeg"/>
-    </div>
+    <h1 class="text-center secondary-font mb-4">Our Menu</h1>
 
+    <?php echo $post->post_content; ?>
+    
     <div class="content">
         <div class="content-title">Visit us</div>
         26A St James Street <br/>
