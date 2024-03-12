@@ -35,18 +35,16 @@
   <body>
 
   <nav class="navbar">
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-center">
+      <a class="menu-link contact-button me-5" href="<?php echo get_site_url(); ?>/menu">
+        MENU
+      </a>
       <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
           <div class="logo-top">TWO MAGPIES</div>
           <div class="logo-bottom">Village Café</div>
       </a>
-      <div class="d-flex">
-        <a class="contact-button me-3" href="<?php echo get_site_url(); ?>/menu">
-          <i class="fa-solid fa-utensils"></i>
-        </a>
-        <a class="contact-button" href="tel:07585 998667">
-            <i class="fa-solid fa-phone"></i>
-         </a>
-      </div>
+      <a class="menu-link contact-button ms-5" href="tel:07585 998667">
+        CALL
+      </a>
     </div>
   </nav>

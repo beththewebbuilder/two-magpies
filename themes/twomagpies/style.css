@@ -4,7 +4,7 @@ Theme Name: Two Magpies Village Café
 Author: Bethany Fowler
 Author URI: https://bethanyfowler.me/
 Description: Styled theme for Two Magpies Village Café
-Version: 1.0.1
+Version: 1.0.2
 */
 @font-face {
   font-family: "BrittanySignature";
@@ -16,7 +16,9 @@ Version: 1.0.1
   background-color: #e1a3c0;
 }
 .navbar .navbar-brand {
-  color: black;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }
 .navbar .logo-top {
   font-family: "Montserrat", sans-serif;
@@ -24,9 +26,11 @@ Version: 1.0.1
 .navbar .logo-bottom {
   font-family: BrittanySignature, cursive;
 }
-.navbar .contact-button {
+.navbar .menu-link {
+  font-size: 1rem;
   color: #C05F8A;
-  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .secondary-font {
